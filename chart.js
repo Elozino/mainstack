@@ -136,8 +136,6 @@ function fetchData() {
       });
     })
     .catch((err) => console.log(err));
-  // const response = fetch.json()
-  // const data = response
 }
 
 fetchData();
