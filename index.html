@@ -5,12 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./mainstack-logo.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./tailwind.js"></script>
-    <!-- <script src="https://unpkg.com/react/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/prop-types/prop-types.min.js"></script>
-    <script src="https://unpkg.com/recharts/umd/Recharts.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Mainstack</title>
 </head>
@@ -242,8 +239,8 @@
                 <!-- location -->
                 <div class=" w-full">
                     <div class="mb-5 flex justify-between items-center">
-                        <h4 class="font-bold text-xl">Top Locations</h4>
-                        <p class="text-brand_orange font-medium">View Reports</h4>
+                        <h4 class="font-bold text-xl">Top Referral Source</h4>
+                        <p class="text-brand_orange font-medium">View Full Reports</h4>
                     </div>
                     <div class="lg:flex lg:justify-between">
                         <div class="mb-5 lg:mb-0">
@@ -251,11 +248,12 @@
 
                             </div>
                         </div>
-                        <div class="">
+                        <div class="w-2/5">
                             <canvas id="myCharts"></canvas>
                         </div>
                     </div>
                 </div>
+        
 
                 <!-- referral -->
                 <div class=" w-full">
@@ -263,7 +261,7 @@
                         <h4 class="font-bold text-xl">Top Referral Source</h4>
                         <p class="text-brand_orange font-medium">View Full Reports</h4>
                     </div>
-                    <div class="lg:flex lg: justify-between">
+                    <div class="lg:flex lg:justify-between">
                         <div class="mb-5 lg:mb-0">
                             <div id="referral" class="text-lg">
 
